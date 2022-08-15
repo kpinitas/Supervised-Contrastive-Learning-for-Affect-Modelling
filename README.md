@@ -19,4 +19,4 @@ You should also download the RECOLA Database from: https://diuf.unifr.ch/main/di
 From the files you will download run ``` main.py ```
 
 ## Important Note
-The csv files should be saved inside the PROCESSED-DATA folder
+The csv files should be saved inside a folder with name "PROCESSED-DATA" and place it at the same directory as the code
