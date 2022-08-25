@@ -1,6 +1,6 @@
-# Supervised Contrastive Learning for Affect Modeling
+# Supervised Contrastive Learning for Affect Modelling
 
-This is the code for the Supervised Contrastive Learning for Affect Modeling paper.
+This is the code for the Supervised Contrastive Learning for Affect Modelling paper.
 
 The code is written in Python and requires the Anaconda platform. 
 
