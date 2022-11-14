@@ -244,12 +244,11 @@ for tw in['4']:
     acc_avclc=[]
     dum=[]
     
-    P_list=PARTICIPANTS
     for trial in range(num_trials):
         
-        random.shuffle(P_list)
+
         #create folds
-        folds = helper.create_folds(P_list,num_folds)
+        folds = helper.create_folds(PARTICIPANTS,num_folds)
         for fid in range(num_folds):
             print('=== Trial '+str(trial+1)+', Fold '+str(fid+1)+ ' === arousal classification_'+operation+'_'+tw+'_'+alp)
             test_fold = folds[fid]
